@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  description: MyString
+  start_time: 2013-08-24 16:36:38
+  end_time: 2013-08-24 16:36:38
+  goal: 1
+  user_id: 1
+  amount1: 1
+  amount2: 1
+  amount3: 1
+  amount4: 1
+  active: false
+
+two:
+  name: MyString
+  description: MyString
+  start_time: 2013-08-24 16:36:38
+  end_time: 2013-08-24 16:36:38
+  goal: 1
+  user_id: 1
+  amount1: 1
+  amount2: 1
+  amount3: 1
+  amount4: 1
+  active: false

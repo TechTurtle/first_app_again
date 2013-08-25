@@ -1,4 +1,10 @@
 FirstApp::Application.routes.draw do
+  resources :users
+
+  resources :jars
+
+  match '/signin', to: 'users#show',  via: 'post'
+  match '/test', to: 'users#test',  via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

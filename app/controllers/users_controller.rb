@@ -23,7 +23,7 @@ class UsersController < ApplicationController
 	end
 
 	def test
-		render json: {success: false, message: "is it working?"}, status: :unprocessable_entity
+		render json: {success: false, message: "is it working?"}, status: :ok
 	end
 
 end
